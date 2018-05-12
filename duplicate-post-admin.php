@@ -113,7 +113,7 @@ function duplicate_post_make_duplicate_link_row($actions, $post) {
 	if (duplicate_post_is_current_user_allowed_to_copy()) {
 		$actions['clone'] = '<a href="'.duplicate_post_get_clone_post_link( $post->ID , 'display', false).'" title="'
 		. esc_attr(__("Clone this item", DUPLICATE_POST_I18N_DOMAIN))
-		. '">' .  __('Clone', DUPLICATE_POST_I18N_DOMAIN) . '</a>';
+		. '">' .  __('Clone1', DUPLICATE_POST_I18N_DOMAIN) . '</a>';
 		$actions['edit_as_new_draft'] = '<a href="'. duplicate_post_get_clone_post_link( $post->ID ) .'" title="'
 		. esc_attr(__('Copy to a new draft', DUPLICATE_POST_I18N_DOMAIN))
 		. '">' .  __('New Draft', DUPLICATE_POST_I18N_DOMAIN) . '</a>';
