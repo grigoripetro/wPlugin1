@@ -23,7 +23,6 @@ function duplicate_post_get_current_version() {
  * Plugin upgrade
  */
 add_action('admin_init','duplicate_post_plugin_upgrade');
-
 function duplicate_post_plugin_upgrade() {
 	$installed_version = duplicate_post_get_installed_version();
 
@@ -254,7 +253,6 @@ function duplicate_post_copy_post_meta_info($new_id, $post) {
 // Using our action hooks to copy meta fields
 add_action('dp_duplicate_post', 'duplicate_post_copy_post_meta_info', 10, 2);
 add_action('dp_duplicate_page', 'duplicate_post_copy_post_meta_info', 10, 2);
-
 /**
  * Copy the attachments
  * It simply copies the table entries, actual file won't be duplicated
