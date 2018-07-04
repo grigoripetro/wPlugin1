@@ -19,13 +19,9 @@ If you find this useful, [**please consider donating**](http://lopo.it/duplicate
 How it works:
 
 1. In 'Edit Posts'/'Edit Pages', you can click on 'Clone' link below the post/page title: this will immediately create a copy and return to the list.
-
 2. In 'Edit Posts'/'Edit Pages', you can click on 'New Draft' link below the post/page title.
-
 3. On the post edit screen, you can click on 'Copy to a new draft' above "Cancel"/"Move to trash". 
-
 4. While viewing a post as a logged in user, you can click on 'Copy to a new draft' as a dropdown link under "Edit Post" in the admin bar.
-
 2, 3 and 4 will lead to the edit page for the new draft: change what you want, click on 'Publish' and you're done.
 
 **Pay attention to the new behaviour!** The first way now allows you to clone a post with a single click, speeding up your work if you have many posts to duplicate.
