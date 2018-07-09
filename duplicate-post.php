@@ -35,6 +35,7 @@ define('DUPLICATE_POST_CURRENT_VERSION', '2.6' );
 /**
  * Initialise the internationalisation domain
  */
+
 load_plugin_textdomain(DUPLICATE_POST_I18N_DOMAIN,
 			'wp-content/plugins/duplicate-post/languages','duplicate-post/languages');
 
