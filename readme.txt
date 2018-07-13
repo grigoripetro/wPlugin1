@@ -11,7 +11,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Clone posts and pages.
 
 == Description ==
-
 This plugin allows to clone a post or page, or edit it as a new draft.
 If you find this useful, [**please consider donating**](http://lopo.it/duplicate-post-plugin/) whatever sum you choose, **even just 10 cents**. It's been downloaded thousands of times: just a few cents from every user would help me develop the plugin and improve support.
 
